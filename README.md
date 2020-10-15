@@ -1,3 +1,4 @@
+# preset.json配置说明
 {
   "useConfigFiles": true,
   "plugins": {
@@ -11,7 +12,9 @@
       "lintOn": [
         "save"
       ]
-    }
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "@vue/cli-plugin-e2e-cypress": {}
   },
   "cssPreprocessor": "less"
 }
